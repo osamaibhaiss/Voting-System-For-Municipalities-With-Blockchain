@@ -16,25 +16,26 @@ Wallet: MetaMask
 
 # 🚀 Setup & Run the Project
 # 1️⃣ Clone the Repository
-git clone https://github.com/osamaibhaiss/Voting-System-For-Municipalities-With-Blockchain.git
-cd Voting-System-For-Municipalities-With-Blockchain
+1- git clone https://github.com/osamaibhaiss/Voting-System-For-Municipalities-With-Blockchain.git
+2- cd Voting-System-For-Municipalities-With-Blockchain
 
 # 🖥 2️⃣ Backend Setup
-Install Dependencies
-cd voting_backend
-npm install
+# Install Dependencies
+1- cd voting_backend
+2- npm install
 
 # Configure Environment Variables
-Create a .env file inside voting_backend/ and add:
-PORT=5000
-DB_URI=your_mongodb_cluster_uri
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-ADMIN_WALLET_PRIVATE_KEY=your_admin_wallet_private_key
-INFURA_API_URL=https://arbitrum-sepolia.infura.io/v3/your_infura_project_id
-CONTRACT_ADDRESS=your_deployed_contract_address
+1 Create a .env file inside voting_backend/ and add:
+2 PORT=5000
+3 DB_URI=your_mongodb_cluster_uri
+4 JWT_SECRET=your_jwt_secret
+5 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+6 CLOUDINARY_API_KEY=your_cloudinary_api_key
+7 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+8 ADMIN_WALLET_PRIVATE_KEY=your_admin_wallet_private_key
+9 INFURA_API_URL=https://arbitrum-sepolia.infura.io/v3/your_infura_project_id
+10 CONTRACT_ADDRESS=your_deployed_contract_address
+
 # Run Backend Server
 npm start
 
@@ -72,7 +73,7 @@ cd frontend
 npm install
 # Run React App
 npm start
-The frontend should now be available at http://localhost:3000.
+
 # 🔄 5️⃣ Running the Full System
 # Start MongoDB (if running locally):
 mongod
